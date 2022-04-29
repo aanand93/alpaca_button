@@ -1,0 +1,49 @@
+:root {
+    --primary: #00d4ff;
+    --success: #75fa83;
+} 
+
+.btn {
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+
+}
+
+.btn:hover {
+    transform: translateY(-9px);
+    box-shadow: 0px 40px 45px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    background-color: rgba(238, 174, 202, 1);
+}
+
+.btn--primary--solid {
+    background-color:var(--primary);
+    color: white;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn--medium {
+    padding: 30px;
+    font-size: 18px;
+}
+
+img {
+    padding: 10px;
+    margin: 10px;
+    max-height:  50vh;
+    max-width:  50vw;
+}
+.AlpacaButton {
+    display: inline-block;
+    align-items: center;
+}
+.images {
+    padding: 50px;
+}
