@@ -10,6 +10,7 @@ import logo7 from '../Alpacas/Alpaca7.jpeg';
 import logo8 from '../Alpacas/Alpaca8.jpeg';
 import logo9 from '../Alpacas/Alpaca9.jpeg';
 import logo10 from '../Alpacas/Alpaca10.jpeg';
+import logo11 from '../Alpacas/340.jpg';
 
 const STYLES = ['btn--primary--solid', 'btn--success--solid'];
 
@@ -27,7 +28,7 @@ const AlpacaButton = ({ children, type, onClick, buttonStyle, buttonSize }) => {
 		logo2,
 		logo3,
 		logo4,
-        logo5,
+		logo5,
 		logo6,
 		logo7,
 		logo8,
@@ -52,7 +53,7 @@ const AlpacaButton = ({ children, type, onClick, buttonStyle, buttonSize }) => {
 				{children}
 			</button>
 			<div className='images'>
-				<img id='img' src={logo2} alt='alpaca' />
+				<img id='img' src={logo11} alt='alpaca' />
 			</div>
 		</div>
 	);
