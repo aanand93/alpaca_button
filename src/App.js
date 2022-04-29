@@ -4,7 +4,7 @@ import AlpacaButton from './Components/AlpacaButton';
 function App() {
 	return (
 		<div className='App'>
-			<AlpacaButton />
+			<AlpacaButton>Buy Now</AlpacaButton>
 		</div>
 	);
 }
