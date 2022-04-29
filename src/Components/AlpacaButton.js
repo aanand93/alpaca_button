@@ -12,7 +12,7 @@ import logo9 from '../Alpacas/Alpaca9.jpeg';
 import logo10 from '../Alpacas/Alpaca10.jpeg';
 import logo11 from '../Alpacas/340.jpg';
 import logo12 from '../Alpacas/Alpaca12.jpeg';
-import logo13 from '../Alpacas/Alpaca13.jpeg';
+import logo13 from '../Alpacas/Alpaca13.webp';
 
 const STYLES = ['btn--primary--solid', 'btn--success--solid'];
 

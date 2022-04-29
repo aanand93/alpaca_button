@@ -1,3 +1,22 @@
+# Alpaca Image Generator
+> A simple react app that has a button and when clicked a different alpaca image will appear.
+
+# Description
+> This react app was built for my daughter who is 7 who is obsessed with alpacas. The plan was to create just a button with an onclick. I wanted to make it more technical and I was going to use an API however I haven't found any. My original plan was to download as many alpaca photos as possible but 1) that will take forever and 2) the file for this react project will eventually become huge for no reason. As of right now the app works with a small amount of alpacas to keep the project size small.
+
+> Version 2 of the app will use puppeteer.js and will scrape urls off google images of alpacas and then randomize a selection from the list created of the urls similarly to the `alpacaClick()` function in version 1. This will allow there to be an almost infinite amount of alpacas and/or an updated daily version so new alpacas will appear as they are uplaoded to google images. Those features of how new the images will be, will be set up in the puppeteer functions.
+
+## Dependencies
+- React.js
+- Node.js
+- Styled Components
+- 
+
+## Screenshots
+<img width="962" alt="Screen Shot 2022-04-29 at 1 21 42 PM" src="https://user-images.githubusercontent.com/77586218/165992946-01ad22de-0835-4081-af17-71549ccf15b5.png">
+<img width="958" alt="Screen Shot 2022-04-29 at 1 21 59 PM" src="https://user-images.githubusercontent.com/77586218/165992950-06d2fb0d-4d13-4fa8-90df-899dddf147a6.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
