@@ -11,6 +11,8 @@ import logo8 from '../Alpacas/Alpaca8.jpeg';
 import logo9 from '../Alpacas/Alpaca9.jpeg';
 import logo10 from '../Alpacas/Alpaca10.jpeg';
 import logo11 from '../Alpacas/340.jpg';
+import logo12 from '../Alpacas/Alpaca12.jpeg';
+import logo13 from '../Alpacas/Alpaca13.jpeg';
 
 const STYLES = ['btn--primary--solid', 'btn--success--solid'];
 
@@ -34,6 +36,8 @@ const AlpacaButton = ({ children, type, onClick, buttonStyle, buttonSize }) => {
 		logo8,
 		logo9,
 		logo10,
+		logo12,
+        logo13
 	];
 	const alpacaClick = (e) => {
 		var img = document.querySelector('img');
