@@ -1,18 +1,31 @@
 # Alpaca Image Generator
-> A simple react app that has a button and when clicked a different alpaca image will appear.
+    A simple react app that has a button and when clicked a different alpaca image will appear.
 
-# Description
-> This react app was built for my daughter who is 7 who is obsessed with alpacas. The plan was to create just a button with an onclick. I wanted to make it more technical and I was going to use an API however I haven't found any. My original plan was to download as many alpaca photos as possible but 1) that will take forever and 2) the file for this react project will eventually become huge for no reason. As of right now the app works with a small amount of alpacas to keep the project size small.
+## Description
+    This react app was built for my daughter who is 7 who is obsessed with alpacas. The plan was to create just a button with an onclick. I wanted to make it more technical and I was going to use an API however I haven't found any. My original plan was to download as many alpaca photos as possible but 1) that will take forever and 2) the file for this react project will eventually become huge for no reason. As of right now the app works with a small amount of alpacas to keep the project size small.
 
-> Version 2 of the app will use puppeteer.js and will scrape urls off google images of alpacas and then randomize a selection from the list created of the urls similarly to the `alpacaClick()` function in version 1. This will allow there to be an almost infinite amount of alpacas and/or an updated daily version so new alpacas will appear as they are uplaoded to google images. Those features of how new the images will be, will be set up in the puppeteer functions.
+### Version 2
+    Version 2 of the app will use puppeteer.js and will scrape urls off google images of alpacas and then randomize a selection from the list created of the urls similarly to the `alpacaClick()` function in version 1. This will allow there to be an almost infinite amount of alpacas and/or an updated daily version so new alpacas will appear as they are uplaoded to google images. Those features of how new the images will be, will be set up in the puppeteer functions.
+        - React.js
+        - Node.js
+        - Styled.js
+        - Puppeteer.js
+        - ...
+### Version 3
 
-> Version 3 would consist of a fullstack app. Create an api using a database filled with pictures of alpacas. MERN stack or React.js Node.js, Python, and Django Rest. Styling of this would need to be completely updated and fit the theme of the project.
+    Version 3 would consist of a fullstack app. Create an api using a database filled with pictures of alpacas. MERN stack or React.js Node.js, Python, and Django Rest. Styling of this would need to be completely updated and fit the theme of the project.
+        - React.js
+        - Node.js
+        - Styled.js
+        - Puppeteer.js
+        - Python
+        - Django Rest Framework
+        - ...
 
 ## Dependencies
 - React.js
 - Node.js
-- Styled Components
-- 
+- Styled.js
 
 ## Screenshots
 <img width="962" alt="Screen Shot 2022-04-29 at 1 21 42 PM" src="https://user-images.githubusercontent.com/77586218/165992946-01ad22de-0835-4081-af17-71549ccf15b5.png">
