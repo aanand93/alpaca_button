@@ -6,6 +6,8 @@
 
 > Version 2 of the app will use puppeteer.js and will scrape urls off google images of alpacas and then randomize a selection from the list created of the urls similarly to the `alpacaClick()` function in version 1. This will allow there to be an almost infinite amount of alpacas and/or an updated daily version so new alpacas will appear as they are uplaoded to google images. Those features of how new the images will be, will be set up in the puppeteer functions.
 
+> Version 3 would consist of a fullstack app. Create an api using a database filled with pictures of alpacas. MERN stack or React.js Node.js, Python, and Django Rest. Styling of this would need to be completely updated and fit the theme of the project.
+
 ## Dependencies
 - React.js
 - Node.js
